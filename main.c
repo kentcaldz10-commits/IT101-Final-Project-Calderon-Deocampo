@@ -216,7 +216,7 @@ int main() {
             }
         }
         else if (choice == 5) {
-            printf("\nExiting program. Good luck with your defense!\n");
+            printf("\nExiting program\n");
             return 0;
         }
         else {
