@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main() {
@@ -7,11 +6,11 @@ int main() {
 
     do {
         printf("IT102 - PROGRAMMING 1 PORTFOLIO\n");
-        printf("[1] Pattern Generator\n");
-        printf("[2] Pascal's Triangle\n");
-        printf("[3] Grade Calculator\n");
-        printf("[4] Palindrome Checker\n");
-        printf("[5] Exit Program\n");
+        printf("1. Pattern Generator\n");
+        printf("2. Pascal's Triangle\n");
+        printf("3. Grade Calculator\n");
+        printf("4. Palindrome Checker\n");
+        printf("5. Exit Program\n");
         printf("Enter your choice (1-5): ");
 
         if (scanf("%d", &choice) != 1) {
@@ -32,11 +31,11 @@ int main() {
             }
             else {
                 printf("\nSelect Shape:\n");
-                printf("[1] Right Triangle\n");
-                printf("[2] Square\n");
-                printf("[3] Isosceles Triangle\n");
-                printf("[4] Inverted Right Triangle\n");
-                printf("[5] Christmas Tree\n");
+                printf("1. Right Triangle\n");
+                printf("2. Square\n");
+                printf("3. Isosceles Triangle\n");
+                printf("4. Inverted Right Triangle\n");
+                printf("5. Christmas Tree\n");
                 printf("Enter your choice: ");
 
                 if (scanf("%d", &subChoice) != 1) {
